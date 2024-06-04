@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunOlympic2024Payris.com</title>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./components/_a-panel.css">
+    <link rel="stylesheet" href="./_utility.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="sidebar">
+            <div class="side-logo">
+                <div class="logo">
+                    <i class='bx bxs-hot' id="i_btn"></i>
+                    <div class="logo_name">Fun Olympic 2024</div>
+                </div>
+                <i class='bx bx-menu' id="side-btn"></i>
+            </div>
+
+            <ul class="nav-sidebar">
+                <li>
+                    <a href="./a-panel.html">
+                        <i class='bx bx-home-alt-2' ></i>
+                        <span class="sidebar-link">DashBoard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./a-updateinfo.html">
+                        <i class='bx bx-book-content' ></i>
+                        <span class="sidebar-link">Update Info</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class='bx bx-analyse'></i>
+                        <span class="sidebar-link">Analytics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class='bx bx-cog'></i>
+                        <span class="sidebar-link">Setting</span>
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <div class="pf-content">
+                <div class="pf">
+                    <div class="pf-details">
+                        <img src="./images/user.png" alt="">
+                        <div class="pf-info">
+                            <div class="info-name">Micheal</div>
+                            <div class="info-position">Adminstrator</div>
+                        </div>
+                    </div>
+                    <i class='bx bx-log-out'  id="logout-btn"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="dash-bdy">
+            <div class="dash-content">
+                <div class="dash-i">
+                    <i class="fa-solid fa-gauge"></i>
+                </div>
+                <h1 class="dash-title">DashBoard</h1>
+            </div>
+
+            <section class="dash-section">
+                <div class="dash-tu">
+                    <i class='bx bx-user-pin'></i>
+                    <h2>Total Users</h2>
+                    <span id="total-users"></span>
+                </div>
+
+                <div class="dash-tv">
+                    <i class='bx bx-football'></i>
+                    <h2>Total Sports</h2>
+                    <span>8</span>
+                </div>
+            </section>
+
+
+            <section class="dash-table">
+                <div class="dash-content mb-20">
+                    <div class="dash-i">
+                        <i class='bx bx-receipt'></i>
+                    </div>
+                    <h1 class="dash-title">Recent Users</h1>
+                </div>
+                <table id="user-table">
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Phone No</th>
+                            <th>Country</th>
+                            <th>Sports</th>
+                        </tr>
+                    </thead>
+                    <tbody id="user-table-body">
+                        
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="./js/a-panel.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sideBtn = document.getElementById('side-btn');
+            const sidebar = document.querySelector('.sidebar');
+            const logo = document.querySelector('.logo'); // Target the .logo element
+            const sidebarLinks = document.querySelectorAll('.nav-sidebar li a span');
+            const sidebarIcons = document.querySelectorAll('.nav-sidebar li a i');
+            const mainContent = document.querySelector('main');
+
+            // Function to toggle sidebar visibility
+            function toggleSidebar() {
+                sidebar.classList.toggle('collapsed');
+                logo.classList.toggle('hidden'); // Toggle the 'hidden' class for the logo
+                sidebarLinks.forEach(link => {
+                    link.classList.toggle('hidden');
+                });
+                sidebarIcons.forEach(icon => {
+                    icon.classList.toggle('hidden');
+                });
+                // Toggle the left position and width of the main content area
+                if (sidebar.classList.contains('collapsed')) {
+                    mainContent.style.left = '50px'; // Adjust based on collapsed sidebar width
+                    mainContent.style.width = 'calc(100% - 50px)'; // Adjust based on collapsed sidebar width
+                } else {
+                    mainContent.style.left = '240px'; // Adjust based on sidebar width
+                    mainContent.style.width = 'calc(100% - 240px)'; // Adjust based on sidebar width
+                }
+            }
+
+            // Add click event listener to side button
+            sideBtn.addEventListener('click', function () {
+                toggleSidebar();
+            });
+        });
+
+        document.getElementById("logout-btn").addEventListener("click", function() {
+            // Perform any necessary cleanup here, e.g., clearing session storage or cookies
+            // Redirect to the login page
+            window.location.href = "a-login.html";
+        });
+
+    </script>
+</body>
+</html>

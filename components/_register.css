@@ -1,0 +1,115 @@
+.container-r {
+  border: 2px solid var(--footercolor);
+  width: 500px;
+  padding: 10px;
+  margin: 40px auto;
+  background-color: #5a5bb69a;
+  border-radius: 5px;
+
+  color: black;
+}
+
+.content {
+  padding: 20px;
+}
+
+/* CSS */
+.extra {
+    display: flex;                  /* Make the container a flex container */
+    align-items: center;            /* Align children vertically in the center */
+    justify-content: space-between; /* Distribute space evenly */
+    gap: 10px;                      /* Add spacing between elements */
+  }
+  
+  .checkbox-container {
+    display: flex;       
+    align-items: center; 
+    p
+  }
+  
+  .checkbox-container input {
+    margin: 8px; 
+  }
+  
+  .checkbox-container .nowrap {
+    white-space: nowrap; /* Prevent text wrapping */
+    font-size: 15px;
+    margin-bottom: 10px;    /* Maintain consistent font size */
+  }
+  
+  .btn-right {
+    margin-left: auto;
+  }
+  
+
+.container-r input,
+select {
+  width: 100%;
+  height: auto;
+  padding: 0.7rem;
+  border: 1px solid black;
+
+  outline: none;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.container-r .content form button {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: blue;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.extra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.6rem 0rem;
+}
+
+.refresh-button {
+  width: 75px;
+  height: 100%;
+  font-size: 25px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 20px;
+  position: inherit;
+}
+
+.btn-right {
+  display: block;
+  margin-left: auto;
+}
+
+#message,
+#feedback,
+#confirm-feedback,
+#suggestions {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  color: black;
+  font-size: 13px;
+  margin-top: -12px;
+}
+
+#message {
+  bottom: 0;
+  display: none;
+}
+
+#confirm-feedback {
+  bottom: 0;
+  display: none;
+}

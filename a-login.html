@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="./components/_a-login.css">
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <!-- <div class="button-box">
+        <div id="btn-i"></div>
+        <button type="button" class="login-btn" onclick="login()">Log In</button>
+        <button type="button" class="login-btn" onclick="signup()">Sign Up</button>
+      </div> -->
+      
+      <form id="login" class="group">
+
+        <h3 style="margin-bottom: 10px; text-align: center; font-size: 30px;">Fun Olympic 2024 Admin Login</h3>
+        <input type="email" id="l-email" class="field" placeholder="Email" required>
+        <input type="password" id="l-password" class="field" placeholder="Password" required>
+        <input type="checkbox" class="check-box"><span class="bi">Remember Password?</span>
+        <button type="submit" class="submit-btn">Log In</button>
+      </form>
+      
+      <!-- <form id="signup" class="group">
+        <h3 style="margin-bottom: 10px; text-align: center; font-size: 30px;">Admin Registration</h3>
+        <input type="text" id="r-username" class="field" placeholder="Username" required>
+        <input type="email" id="r-email" class="field" placeholder="Email" required>
+        <input type="password" id="r-password" class="field" placeholder="Enter Password" required>
+        <input type="checkbox" class="check-box"><span class="bi">I agree to the terms and policies.</span>
+        <button type="submit" class="submit-btn">Sign Up</button>
+      </form> -->
+    </div>
+  </div>
+
+  <script type="module" src="./js/a-login.js"></script>
+  <script type="module" src="./js/a-register.js"></script>
+
+  <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("signup");
+    var z = document.getElementById("btn-i");
+
+    function signup() {
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+    }
+
+    function login() {
+      x.style.left = "50px";
+      y.style.left = "450px";
+      z.style.left = "0";
+    }
+  </script>
+</body>
+</html>

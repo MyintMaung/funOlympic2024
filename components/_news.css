@@ -1,0 +1,50 @@
+/* Pagination styling */
+.pagination {
+    text-align: center; 
+    justify-content: center; /* Center the pagination */
+    margin-top: 30px;    /* Add more space between the content and pagination */
+}
+
+.pagination a {
+    display: inline-block;  /* Inline-block for links */
+    padding: 12px 18px;     /* Larger padding for bigger size */
+    font-size: 15px;        /* Increase font size for readability */
+    text-decoration: none;  /* Remove underline */
+    color: #333;            /* Text color */
+    background-color: #f9f9f9; /* Light background */
+    border: 2px solid #ddd; /* Thicker border for visibility */
+    border-radius: 10px;   /* Rounded corners */
+    margin: 0 10px;        /* Spacing between links */
+}
+
+.pagination a:hover {
+    background-color: #ddd;  /* Change background on hover */
+}
+
+.pagination a.active {
+    background-color: #333; /* Active page link background */
+    color: white;           /* Active page link text color */
+}
+
+.extra {
+    text-align: center;  /* Center the button */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+        
+}
+
+.extra button {
+    background-color: #333;    /* Dark background for the button */
+    color: white;              /* White text color */
+    border: none;              /* No border */
+    border-radius: 10px;       /* Rounded corners */
+    padding: 10px 20px;        /* Padding around the button */
+    cursor: pointer; 
+    display: flex;          /* Change cursor to indicate clickable */
+}
+
+.extra button:hover {
+    background-color: #555;    /* Darker background on hover */
+}
+

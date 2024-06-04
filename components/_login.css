@@ -1,0 +1,127 @@
+.lg-bdy {
+    background-color: var(--footercolor);
+  }
+
+
+  
+  
+.login-h{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    color: black;
+
+}
+
+.logo-p{
+    width: 50px;
+}
+
+.container-l{
+    max-width: 485px;
+    width: auto;
+    color: black;
+    padding: 20px 30px 30px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin: auto;
+    background-color: #5a5bb69a;
+    color: black;
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+    
+}
+
+.content-l {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+
+.loginImg {
+    width: 200px; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content-l .input-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    padding: 0.7rem ;
+    border: 1px solid black;
+    border-radius: 40px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.input-box i{
+    position: absolute;
+    left: 20px;
+    transform: translateY(120%);
+
+    color: black;
+}
+
+.container-l .content-l form button{
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.6rem 0rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+#message,
+#feedback,
+#confirm-feedback {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    color: black;
+    font-size: 12px;
+    margin-top: -10px; 
+}
+
+#message {
+    bottom: 0; 
+    display: none;
+}
+
+#confirm-feedback {
+    bottom: 0;
+}
+
+.sure-box{
+    display: inline-block;
+}
+
+.lb-box{
+    display: inline-block;
+}

@@ -1,0 +1,61 @@
+
+.hd{
+    font-size: 40px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.dp{
+    display: none;
+}
+
+.txtcolor{
+    color: white;
+}
+
+.pf-bg{
+    background: var(--footercolor);
+}
+
+
+.bg-white{
+    background: white;
+}
+
+.h6-fontsize{
+    font-size: 12px;
+}
+
+.img-size{
+    width: 30px;
+}
+
+.img-s1{
+    width: 40px;
+}
+
+.flex{
+    display: flex;
+}
+
+.ai{
+    align-items: center;
+}
+
+.ta-center{
+    text-align: center;
+}
+
+.pd-30{
+    padding: 30;
+}

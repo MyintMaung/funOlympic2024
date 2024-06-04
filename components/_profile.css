@@ -1,0 +1,99 @@
+.container-p{
+    width: 650px;
+    padding: 10px;
+    margin: 40px auto ;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+}
+
+.container-p img{
+    width: 100%;
+}
+
+.content-p{
+    width: 500px;
+    margin-top: 60px;
+    padding: 10px 20px;
+}
+
+.content-p img{
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    border: 4px solid var(--navcolor);
+    border-radius: 50%;
+}
+
+.div-p {
+    font-size: 20px;
+}
+
+.div-p label {
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.div-p i {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.div-p span{
+    margin-right: 10px;
+}
+
+
+.setting-bdy{
+    border: 1px solid black;
+    width: 500px;
+    padding: 10px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.setting-bdy form button{
+    padding: 0.5rem 2rem;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.setting-edit{
+    border: 1px solid black;
+    margin: 15px;
+    
+
+}
+
+.setting-edit input, select{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 0.9rem;
+    display: flex;
+}
+
+.setting-pass {
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.setting-pass input, select{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 0.9rem;
+    display: flex;
+}

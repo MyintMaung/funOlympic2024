@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FunOlympic2024Payris.com</title>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./_style.css" />
+    <link rel="stylesheet" href="./components/_news.css">
+      
+  </head>
+  <body style="background-color: white;">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-collapse">
+        <div class="container-fluid">
+          <img src="./images/logo.png" style="width: 50px;" alt="">
+          <a class="navbar-brand" href="./index.html">Fun Olympic 2024</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./news.html">News</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./broadcast.html">Broadcast</a>
+              </li>
+            </ul>
+
+            <a href="./u-login.html">
+              <button id="loginBtn" class="btn btn-primary" style="display: none;">
+                Login
+              </button>
+            </a>
+          
+            
+            <div class="pp" id="profileToggle" style="display: none;">
+    
+                <img src="./images/user.png" class="img-size" alt="">
+              
+              <div class="profile-bdy">
+                <div class="profile-card-warp pf-bg" id="profileCard">
+                  <div class="profile-card">
+                    <div class="user-info">
+                      <img src="./images/user.png" class="img-s1" alt="">
+                      <h3 id="usernameDisplay"></h3>
+                    </div>
+                    <hr>
+                    <a href="./u-profile.html" class="profilecard-link">
+                      <i class="fa-regular fa-user"></i>
+                      <p> View Profile</p>
+                      <span> > </span>
+                    </a>
+                    <a href="./u-setting.html" class="profilecard-link">
+                      <i class="fa-solid fa-gears"></i>
+                      <p>Setting</p>
+                      <span> > </span>
+                    </a>
+                    <a id="logout" class="profilecard-link">
+                      <i class="fa-solid fa-right-from-bracket"></i>
+                      <p>Log out</p>
+                      <span> > </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="au-bdy">
+          <h2 class="au-h">Sprots News</h2>
+          <section class="au-sec" >
+            <div class="au-card">
+              <img src="https://shabd.s3.us-east-2.amazonaws.com/articles/64d385a5fac5152575380031_1696391244741.jpg" alt="" />
+              <div class="au-con">
+                <div class="au-title">Archery Showdown Puts Precision to the Test</div>
+                <q>Payris, France - April 30, 2024</q>
+                <div>
+                  The archery event was a spectacle of skill and accuracy, as competitors from around the world aimed for bullseyes in a series of challenging shots. With wind conditions changing by the minute, each archer had to adjust their technique on the fly. <br>
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                    
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+
+            <div class="au-card">
+              <img src="https://www.hindustantimes.com/ht-img/img/2023/02/17/1600x900/slam_dunk_1676629851213_1676629862697_1676629862697.jpg" alt="" />
+              <div class="au-con">
+                <div class="au-title">Basketball Tournament Thrills with High-Flying Dunks</div>
+                <div>
+                  The basketball tournament at the Fun Olympics 2024 provided edge-of-your-seat excitement, with teams trading fast breaks and dazzling dunks. In the finals, Team Thunderhawks took on Team Sky High in a fast-paced game that kept the crowd on its feet. . . . . . .
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="au-card">
+              <img src="https://thumbnails.cbc.ca/maven_legacy/thumbnails/376/79/kraemer.jpg" alt="" />
+              <div class="au-con">
+                <div class="au-title">Hockey Final Delivers Heart-Pounding Action</div>
+                <div>
+                  The ice hockey final was a rollercoaster of speed and intensity as Team Ice Breakers faced off against Team Glacier Guardians. The game featured stunning goals, bone-crushing checks, and brilliant saves from both sides' goalies. . . . 
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="au-card">
+              <img src="https://img.etimg.com/thumb/width-420,height-315,imgsize-209346,resizemode-75,msid-104061906/news/sports/asian-games-indian-swimmers-end-hangzhou-campaign-with-seven-national-records/sajan-prakash.jpg" alt="" />
+              <div class="au-con">
+                <div class="au-title">Swimming Relay Race Makes Waves with Record-Breaking Performances</div>
+                <div>
+                  The swimming relay race drew huge crowds as teams battled for supremacy in the pool. Swimmers raced against the clock and each other, displaying incredible athleticism and teamwork. In a record-breaking performance .....
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="pagination">
+            <a href="#">&laquo; Prev</a>  <!-- Previous page link -->
+            <a href="#">1</a>  <!-- Page 1 -->
+            <a href="#">2</a>  <!-- Page 2 -->
+            <a href="#">3</a>  <!-- Page 3 -->
+            <a href="#">4</a>  <!-- Page 4 -->
+            <a href="#">Next &raquo;</a>  <!-- Next page link -->
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="au-bdy">
+          <h2 class="au-h">Athletes' News</h2>
+          <section class="au-sec" >
+            <div class="au-card">
+              <img src="https://static.toiimg.com/thumb/msid-104343081,width-1280,height-720,resizemode-4/104343081.jpg" alt="" />
+              <div class="au-con">
+                <div class="au-title">Sprinter Sets New 100m Record</div>
+                <div>
+                  The track and field event at the Fun Olympic 2024 was electrifying as sprinter Jason "Lightning" Lopez set a new record in the 100m dash. His explosive start and incredible acceleration left his competitors in the dust, crossing the finish line in just 9.52 seconds....
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+
+            <div class="au-card">
+              <img src="https://media.thv11.com/assets/WOI/images/d8dbe7ca-4b34-4557-a440-7388fdeb53fd/d8dbe7ca-4b34-4557-a440-7388fdeb53fd_750x422.jpg" alt="" />
+              <div class="au-con">
+                <div class="au-title">Gymnast's Perfect Routine Wins Gold</div>
+                <div>
+                  In the gymnastics arena, the crowd was awestruck as 17-year-old prodigy Elena Chen executed a flawless floor routine to win the gold medal. Her intricate tumbling passes, combined with graceful dance elements, earned her a perfect 10 from all the judges.....
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="au-card">
+              <img src="https://www.mensjournal.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjAyMjM3ODcxMzE3NjU2NjQ0/strongest-men-in-the-world.jpg" alt="" />
+              <div class="au-con">
+                <div class="au-title">Weightlifter's Incredible Feat of Strength</div>
+                <div>
+                  The weightlifting competition witnessed a remarkable display of power and determination as heavyweight champion Miguel Ramos set a new world record in the clean and jerk. Lifting an astonishing 265 kilograms, Ramos' performance was nothing short of awe-inspiring. .....
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="au-card">
+              <img src="https://vmrw8k5h.tinifycdn.com/news/wp-content/uploads/2024/02/20240211_Maso_MA77228-1024x683.jpg" alt="" />
+              <div class="au-con">
+                <div class="au-title">Swimmer Dominates with Triple Gold</div>
+                <div>
+                  Swimmer Samantha "The Shark" Johnson made waves in the Fun Olympics 2024 by winning three gold medals in a single day. Competing in the 200m freestyle, 100m butterfly, and 4x100m medley relay, Johnson demonstrated remarkable speed and endurance.
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="pagination">
+            <a href="#">&laquo; Prev</a>  <!-- Previous page link -->
+            <a href="#">1</a>  <!-- Page 1 -->
+            <a href="#">2</a>  <!-- Page 2 -->
+            <a href="#">3</a>  <!-- Page 3 -->
+            <a href="#">4</a>  <!-- Page 4 -->
+            <a href="#">Next &raquo;</a>  <!-- Next page link -->
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="au-bdy">
+          <h2 class="au-h">Previous Year News</h2>
+          <section class="au-sec" >
+            <div class="au-card">
+              <img src="https://d.newsweek.com/en/full/2083405/robocup-2022.jpg?w=1200&f=945b96c5120c3d2b05371ec7ff53bbf6" alt="" />
+              <div class="au-con">
+                <div class="au-title">
+                  Team Solar's Robotic Soccer Triumph at 2022 Fun Olympics</div>
+                <div>
+                  The robotic soccer event at the 2022 Fun Olympics saw a thrilling showdown between teams equipped with advanced AI-controlled robots. Team Solar's precise coordination and strategic plays led them to a spectacular victory over their rivals, Team Quantum.....
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+
+            <div class="au-card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyyksaHuVZR4rco25TcvW5ZahDA2tEWaoTgCP24pGIsg&s" alt="" />
+              <div class="au-con">
+                <div class="au-title">Record-Breaking Drone Racing at the 2022 Fun Olympics</div>
+                <div>
+                  The drone racing event in 2022 was a high-speed spectacle, with pilots maneuvering their drones through complex obstacle courses. The competition reached a fever pitch when pilot Alex "The Flash" Martinez set a new speed record.....
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="au-card">
+              <img src="https://www.sportsbusinessjournal.com/-/media/Images/Journal/2022/11/14/pg-09-eSports-Toronto-Defiant-Summer-Showdown-team_credit-OAM.ashx" alt="" />
+              <div class="au-con">
+                <div class="au-title">Esports Tournament Delivers Intense Showdowns at 2022 Fun Olympics</div>
+                <div>
+                  The 2022 Fun Olympics esports tournament drew large crowds as top teams faced off in various games, from first-person shooters to real-time strategy. The grand finals were particularly intense.......
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="au-card">
+              <img src="https://lh3.googleusercontent.com/HKMM-tIW2Kvzv729fU526bj79JwLzTqkm43-0pCnzjIDevTaqDhcT3BkcF_HmnG5X-zy7xx37-jEOpGDjjvibQO5hSvBJmShgDUzXIh-Jm0=s750" alt="" />
+              <div class="au-con">
+                <div class="au-title">2022 Fun Olympics Parkour Challenge Inspires with Gravity-Defying Stunts</div>
+                <div>
+                  The parkour challenge at the 2022 Fun Olympics was a breathtaking display of agility and fearlessness. Competitors leaped across rooftops, climbed walls, and performed stunning acrobatics in their quest to .......
+                  <div class="extra">
+                    <button type="submit" id="login" style="border-radius: 10px; padding: 5px;">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="pagination">
+            <a href="#">&laquo; Prev</a>  <!-- Previous page link -->
+            <a href="#">1</a>  <!-- Page 1 -->
+            <a href="#">2</a>  <!-- Page 2 -->
+            <a href="#">3</a>  <!-- Page 3 -->
+            <a href="#">4</a>  <!-- Page 4 -->
+            <a href="#">Next &raquo;</a>  <!-- Next page link -->
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer
+      class="text-center text-lg-start text-white"
+      style="background-color: var(--footercolor)"
+    >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Fun Olympic 2024
+              </h6>
+              <p>
+                Welcome to the exhilarating world of Olympic 2024 Payris! Get
+                ready to witness the pinnacle of human athleticism, where dreams
+                are chased and records are shattered. Join us as we celebrate
+                the spirit of competition and camaraderie in the heart of the
+                City of Lights. Let the games begin!
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">News</h6>
+              <p>
+                <a class="text-white">Sports News</a>
+              </p>
+              <p>
+                <a class="text-white">Athletes News</a>
+              </p>
+              <p>
+                <a class="text-white">History of Sports</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Sports</h6>
+              <p>
+                <a class="text-white">Sports History</a>
+              </p>
+              <p>
+                <a class="text-white">Athletes' History</a>
+              </p>
+              <p>
+                <a class="text-white">Olympic's History</a>
+              </p>
+            </div>
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Payris, PY 800034, FR</p>
+              <p><i class="fas fa-envelope mr-3"></i> FunOlympic2024@Payris.fr</p>
+              <p><i class="fas fa-phone mr-3"></i> + 44 0104 4839204</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-3" />
+
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                © 2024 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/"
+                  >FunOlympic2024Payris.com</a
+                >
+              </div>
+              <!-- Copyright -->
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Facebook -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+
+              <!-- Twitter -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+
+              <!-- Google -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+
+              <!-- Instagram -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                class="text-white"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <!-- Grid column -->
+          </div>
+        </section>
+        <!-- Section: Copyright -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+
+    <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/accountprofile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  </body>
+</html>
